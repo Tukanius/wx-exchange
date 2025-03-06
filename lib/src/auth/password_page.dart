@@ -340,7 +340,7 @@ class _PassWordPageState extends State<PassWordPage> {
                 onSubmit();
               },
               buttonColor: blue,
-              isLoading: false,
+              isLoading: isLoading,
               labelText: 'Болсон',
             ),
             SizedBox(
